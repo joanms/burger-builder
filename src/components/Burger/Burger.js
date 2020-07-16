@@ -8,7 +8,8 @@ const burger = (props) => {
         <div className={classes.Burger}>
             <BurgerIngredient type="bread-top" />
             <BurgerIngredient type="cheese" />
-            <BurgerIngredient type="meat" />
+            <BurgerIngredient type="bacon" />
+            <BurgerIngredient type="patty" />
             <BurgerIngredient type="bread-bottom" />
         </div>
     );
